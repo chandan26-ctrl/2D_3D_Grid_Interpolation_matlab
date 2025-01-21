@@ -14,7 +14,7 @@ dyn = (reshape(yq,[],1));
 
    dm1 = F(dxn,dyn);
    dm2 = reshape(dm1,[il,jl]);
-   uq(:,:,:) = dm2(:,:);
+   uq(:,:) = dm2(:,:);
 
 
 
